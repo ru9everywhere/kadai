@@ -473,6 +473,10 @@ body.aiming {
     transition: border-color 0.2s, transform 0.2s;
 }
 
+.menu-card[hidden] {
+    display: none;
+}
+
 .menu-card.hit {
     border-color: var(--orange);
     transform: translateY(-4px);
